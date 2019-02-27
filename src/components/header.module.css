@@ -1,0 +1,33 @@
+ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-self: flex-end;
+    width: 100%;
+}
+
+li {
+    padding-left: 15px;
+    margin: 5px solid red;
+}
+
+li:hover {
+    background: hsla(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.pai {
+    display: flex;
+}
+
+h1 {
+    text-indent: -10000px;
+}
